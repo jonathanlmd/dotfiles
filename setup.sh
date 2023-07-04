@@ -3,8 +3,10 @@ sudo cp pacman/pacman.conf /etc/pacman.conf
 sudo cp pacman/mirrorlist /etc/pacman.d/mirrorlist
 
 echo "Installing tools"
-yay -S aws-cli kubectl asdf-vm
-mkdir ~/.asdf
+yay -Sy --noconfirm -q aws-cli kubectl asdf-vm neovim
+mkdir -p ~/.asdf
+
+## asdf install 
 
 #yay -S docker docker-compose
 
