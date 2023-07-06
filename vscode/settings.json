@@ -1,0 +1,257 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono",
+  // Associação de icones do material icon
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune"
+  },
+  //Ambiente
+  "explorer.compactFolders": false, //exploração de todas as pastas
+  "workbench.editor.labelFormat": "short",
+  "editor.cursorBlinking": "expand",
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Hack Nerd Font",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.renderLineHighlight": "all",
+  //BreadCrumbs
+  "breadcrumbs.enabled": true,
+  //Emmet
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "aspnetcorerazor": "html"
+  },
+  //ESlint
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    // "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    // "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    // "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  //JS/TS
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+  //Java
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "maven.executable.path": "/opt/maven/bin/mvn",
+  //"java.home": "/usr/lib/jvm/java-13-openjdk/bin"
+  //Git
+  "git.autofetch": true,
+  "git.ignoreLegacyWarning": true,
+  //C
+  "C_Cpp.updateChannel": "Insiders",
+  //C#
+  "[csharp]": {
+    // "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": false,
+      "source.organizeImports": false,
+      "csharp.format.enable": true,
+    },
+  },
+  "omnisharp.useEditorFormattingSettings": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Migrations": true,
+    // "**/migrations": true,
+    "**/obj": true,
+    "**/bin": false,
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Migrations": true,
+    "**/migrations": true,
+    "**/obj": true,
+    "**/bin": true,
+  },
+  "omnisharp.autoStart": false,
+  "omnisharp.enableRoslynAnalyzers": false,
+  "csharp.semanticHighlighting.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "python.defaultInterpreterPath": "/usr/bin/python",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.maxNumberOfProblems": 100,
+  "python.linting.mypyEnabled": false,
+  "python.linting.banditEnabled": false,
+  "python.linting.flake8Enabled": false,
+  "python.linting.prospectorEnabled": false,
+  "python.linting.pycodestyleEnabled": false,
+  "python.linting.pydocstyleEnabled": false,
+  "python.linting.pylamaEnabled": false,
+  "python.linting.ignorePatterns": [
+    ".vscode/*.py",
+    "**/site-packages/**/*.py"
+  ],
+  "python.languageServer": "Pylance",
+  "python.linting.pylintArgs": [
+    "--indent-string=\"\t\"",
+  ],
+  //CSpell
+  "cSpell.language": "en,pt-BR,en-US",
+  "cSpell.userWords": [
+    "armasec",
+    "bioimpedance",
+    "blueprintjs",
+    "Blynk",
+    "cacheable",
+    "Chakra",
+    "clps",
+    "Clps",
+    "CNAME",
+    "dotenv",
+    "Dropzone",
+    "dtos",
+    "Dtos",
+    "elbv",
+    "grayscale",
+    "Hmac",
+    "Ionicons",
+    "iptu",
+    "Jobbergate",
+    "keycloak",
+    "kivy",
+    "Konva",
+    "Kubectl",
+    "kubernetes",
+    "Kubernetes",
+    "Luxy",
+    "mailtrap",
+    "Microservice",
+    "microservices",
+    "middlewares",
+    "nestjs",
+    "Nfse",
+    "numpy",
+    "omnivector",
+    "persistor",
+    "println",
+    "protobuf",
+    "Reactotron",
+    "sklearn",
+    "Slurm",
+    "suprascapular",
+    "typeorm",
+    "uuidv",
+    "xlarge",
+    "zipcode"
+  ],
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "extensions.ignoreRecommendations": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Monokai Night",
+  "[nginx]": {
+    "editor.defaultFormatter": "ahmadalli.vscode-nginx-conf"
+  },
+  "terminal.integrated.defaultProfile.linux": "/usr/bin/zsh (migrated)",
+  "terminal.integrated.profiles.linux": {
+    "/usr/bin/zsh (migrated)": {
+      "path": "/usr/bin/zsh",
+      "args": []
+    }
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.titleBarStyle": "custom",
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "redhat.telemetry.enabled": false,
+  "yaml.schemas": {
+    "file:///home/jonathanlmd/.vscode/extensions/atlassian.atlascode-2.10.11/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "grammarly.files.include": [
+    "**/README.md",
+    "**/readme.md",
+    "**/*.txt",
+    "**/*.rst",
+    "**/*.txt",
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "prettier.ignorePath": "**/*/.terraform"
+}
