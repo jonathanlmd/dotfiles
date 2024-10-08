@@ -22,7 +22,6 @@ export PATH=$PATH:$HOME/.dotnet/tools
 export PATH=$PATH:$HOME/.yarn/bin
 export PATH=$PATH:/opt/sonarqube/sonarscanner/bin
 export PATH=$HOME/.local/bin:$PATH
-#export PATH=$HOME/.dotnet/tools:$PATH
 export KUBECONFIG=${HOME}/.kube/config
 export KUBE_EDITOR=vim
 export SUDO_EDITOR=nvim
@@ -34,11 +33,9 @@ alias pbpaste='xsel --clipboard --output'
 alias elintssh="ssh -i ~/.ssh/Elint/devops.pem ubuntu@ec2-18-188-69-139.us-east-2.compute.amazonaws.com"
 alias luxyMainnet="ssh -i ~/.ssh/Elint/luxyMainnet.pem ubuntu@34.236.81.228"
 alias monkssh="ssh -i ~/.ssh/monkserver.pem ubuntu@monkvtt.tk"
-alias pollumssh="ssh -i ~/.ssh/Elint/sysnevm.pem ubuntu@ec2-18-117-196-92.us-east-2.compute.amazonaws.com"
 alias lv="$HOME/.local/bin/lvim"
 alias luxyDev="ssh -i ~/.ssh/Elint/luxyBackend.pem ubuntu@ec2-54-146-19-35.compute-1.amazonaws.com"
 alias luxyStaging="ssh -i ~/.ssh/Elint/luxyStaging.pem ec2-user@34.203.229.36"
-alias vncServer="vncviewer -via jonathanlmd@192.168.0.13 localhost:1"
 alias k=kubectl
 alias yoda="ssh -i ~/.ssh/oracle/ssh-key-2022-05-03.key opc@129.146.140.115"
 alias setupalacrity="curl -sSL https://raw.githubusercontent.com/alacritty/alacritty/master/extra/alacritty.info | tic -x -"
@@ -56,7 +53,7 @@ fi
 export LS_COLORS="ow=30;46"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/jonathanlmd/.oh-my-zsh"
+export ZSH="${HOME}/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
